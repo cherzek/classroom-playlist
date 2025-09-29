@@ -1,0 +1,27 @@
+  body {
+    background-color: #f8f9fa;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  }
+  .track-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .track-thumbnail {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .vote-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
